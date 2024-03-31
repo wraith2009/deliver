@@ -1,0 +1,31 @@
+what is virtual dom?
+-->we need virtual dom for reconciliation in react.
+react uses reconciliation to use def algo (this algo finds out what needs to be updated).
+
+--->>> react uses something known as virtal dom it is not a actual dom it is rep of actual dom
+and react also uses reconciliation . reconciliation has def algo which finds out the difference 
+between trees . it will only rerender the portion of app which is found out by the def algo.
+
+---->> we use key : suppose if we had 4 div now there are 5 div and if we dont have key react will rerender all
+of the div but if we have key react will only rerender that specific things.
+
+---> react fibre is a new reconciliation engine it was introduced in react 16 and it is responsible for diff-algo.
+
+---> <></> these are react.fragments.
+
+---> if we do export default it exports the title but why use default?
+
+--->Micro-services: instead of having one project we have bundle of small projects.
+Advantages: easier to test , easy to maintain, easy to change (seperation of concerns).
+
+---> Important points about hooks:
+# never write a useState inside a if() condition and loops
+useState is a hook which react gives you to create local state var inside ur functional component.
+
+
+----> there are two types of routing one is client-side and other is server-side.
+in server-side routing out pages comes from server.
+
+
+--> what is redux?
+If the application is very small you dont need redux. Redux and React are different things.
